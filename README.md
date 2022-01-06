@@ -2,6 +2,8 @@
 
 A React hook to make any text node bOuNcY
 
+![example](https://user-images.githubusercontent.com/17409/148418417-d91125f7-15a1-44fd-990f-1aa4f9167601.gif)
+
 ## Usage
 
 ```javascript
