@@ -1,7 +1,10 @@
 /* eslint-disable functional/immutable-data */
 import { MutableRefObject, useEffect, useRef } from 'react';
 
-export function useBouncyText(ref: MutableRefObject<HTMLElement>) {
+export function useBouncyText(
+  ref: MutableRefObject<HTMLElement>,
+  cssClass: string = 'bouncy-text'
+) {
   const appliedRef = useRef(false);
   useEffect(() => {
     if (appliedRef.current || !ref.current) {
@@ -25,7 +28,7 @@ export function useBouncyText(ref: MutableRefObject<HTMLElement>) {
     const els = ref.current.getElementsByTagName('span');
     for (let j = 0; j < els.length; j++) {
       const el = els[j];
-      el.className = 'bouncy-text';
+      el.className = cssClass;
       el.style.animationDelay = `${(j % 5) * 150}ms`;
     }
   }, [ref]);

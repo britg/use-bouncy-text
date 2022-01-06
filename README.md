@@ -4,6 +4,12 @@ A React hook to make any text node bOuNcY
 
 ![example](https://user-images.githubusercontent.com/17409/148418417-d91125f7-15a1-44fd-990f-1aa4f9167601.gif)
 
+## Installation
+
+```
+npm install use-bouncy-text
+```
+
 ## Usage
 
 ```css
@@ -22,10 +28,13 @@ A React hook to make any text node bOuNcY
 ```
 
 ```javascript
-// Define a ref to the text node you want to make bouncy
+import { useBouncyText } from 'use-bouncy-text';
+
 export function ComponentWithBouncyText() {
+  // Define a ref to the text node you want to make bouncy
   const bounceRef = useRef();
-  useBouncyText(bounceRef);
+  // pass the ref and your CSS class to the hook
+  useBouncyText(bounceRef, 'bouncy-text');
 
   return <div ref={bounceRef}>I'm bouncy teeeeext</div>;
 }
