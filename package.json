@@ -1,6 +1,6 @@
 {
   "name": "use-bouncy-text",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A React hook to make any text node bOuNcY",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
