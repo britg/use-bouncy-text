@@ -31,5 +31,5 @@ export function useBouncyText(
       el.className = cssClass;
       el.style.animationDelay = `${(j % 5) * 150}ms`;
     }
-  }, [ref]);
+  }, [ref.current]);
 }
