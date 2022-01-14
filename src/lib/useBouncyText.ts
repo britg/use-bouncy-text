@@ -1,4 +1,3 @@
-/* eslint-disable functional/immutable-data */
 import { MutableRefObject, useEffect, useRef } from 'react';
 
 export function useBouncyText(
@@ -31,5 +30,5 @@ export function useBouncyText(
       el.className = cssClass;
       el.style.animationDelay = `${(j % 5) * 150}ms`;
     }
-  }, [ref.current]);
+  }, [cssClass, ref]);
 }
