@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/britg/use-bouncy-text/compare/v1.1.4...v1.1.6) (2022-01-14)
+
+
+### Bug Fixes
+
+* actually use current value of ref for dep ([91699e1](https://github.com/britg/use-bouncy-text/commit/91699e1b6dbc4eedd62ace7f6e8fa069670e50ac))
+
 ### [1.1.4](https://github.com/britg/use-bouncy-text/compare/v1.1.2...v1.1.4) (2022-01-14)
 
 
