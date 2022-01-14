@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/britg/use-bouncy-text/compare/v1.1.2...v1.1.4) (2022-01-14)
+
+
+### Bug Fixes
+
+* update effect deps ([1c86591](https://github.com/britg/use-bouncy-text/commit/1c86591031adaccfd16ea9d55b2d82a631380a23))
+
 ### [1.1.2](https://github.com/britg/use-bouncy-text/compare/v1.1.0...v1.1.2) (2022-01-07)
 
 ## 1.1.0 (2022-01-07)
